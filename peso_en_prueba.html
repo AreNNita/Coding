@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Peso de prueba</title>
+  <style type="text/css">
+    body
+    {
+    background: aquamarine;
+    color: #black;
+}
+  </style>
+  </head>
+  <body>
+<h1>Pondremos tu peso a prueba</h1>
+<script>
+  var peso = parseInt(prompt("Ingrese su peso:"));
+  var suma = prompt("Que tipo de suma 1 o 2");
+  var suma_uno = 2;
+  var suma_dos = 3;
+  var resultado;
+
+if (suma == 1)
+{
+  resultado = peso + suma_uno;
+}
+else if (suma == 2)
+{
+resultado = peso + suma_dos;
+}
+else {
+  resultado = "imposible de sumar";
+}
+document.write("Su peso sumado es: " + resultado);
+</script>
+  </body>
+</html>
